@@ -1,0 +1,124 @@
+/* Estilo Moderno para el Portal de Eventos Comunitarios */
+
+/* Fondo del cuerpo */
+body {
+    background-color: #f5f5f5; /* Gris muy claro */
+    font-family: 'Roboto', sans-serif; /* Fuente moderna */
+    color: #333; /* Color de texto general */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo de la barra de navegación */
+.navbar {
+    background-color: #1f1f1f; /* Fondo oscuro */
+    border-bottom: 2px solid #ff9900; /* Línea de acento */
+}
+
+/* Enlaces de navegación (por defecto) */
+.nav-link {
+    color: #ff9900 !important; /* Color actual de los enlaces */
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+    border-bottom: 2px solid transparent;
+}
+
+/* Cambiar a color azul al pasar el puntero por encima (hover) */
+.nav-link:hover {
+    color: #007bff !important; /* Azul al hacer hover */
+    border-bottom: 2px solid #007bff; /* Línea inferior azul al hacer hover */
+}
+
+/* Estilo de los títulos */
+h1, h2 {
+    color: #1f1f1f; /* Color oscuro para los títulos */
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Tarjetas de eventos */
+.card {
+    border: none;
+    border-radius: 12px; /* Bordes redondeados */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #ffffff; /* Fondo blanco */
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Efecto de elevación al hacer hover */
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2); /* Sombra más profunda */
+}
+
+.card-title {
+    color: #ff9900; /* Naranja para los títulos de las tarjetas */
+    font-weight: bold;
+}
+
+/* Botones personalizados */
+.btn-primary {
+    background-color: #ff9900; /* Naranja para el botón */
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #cc7a00; /* Naranja más oscuro en hover */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* Sombra más intensa en hover */
+}
+
+/* Formularios estilizados */
+.form-control {
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    padding: 12px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: none;
+    background-color: #f9f9f9;
+}
+
+.form-control:focus {
+    border-color: #ff9900;
+    box-shadow: 0px 0px 10px rgba(255, 153, 0, 0.2); /* Sombra naranja en focus */
+}
+
+/* Estilo para las tablas */
+.table {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    overflow: hidden;
+    border-collapse: separate;
+}
+
+.table th {
+    background-color: #1f1f1f; /* Color oscuro para la cabecera */
+    color: white; /* Texto blanco */
+    font-weight: bold;
+    text-align: center;
+}
+
+.table td {
+    text-align: center;
+    padding: 15px;
+    vertical-align: middle;
+}
+
+/* Pie de página */
+footer {
+    background-color: #1f1f1f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
